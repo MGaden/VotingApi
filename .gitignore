@@ -3,3 +3,14 @@
 ################################################################################
 
 /Voting.Shared/Voting.Shared.csproj.vspscc
+/Voting.Shared/obj
+/Voting.Shared/bin/Debug/netstandard2.0
+/Voting.Service/Voting.Service.csproj.user
+/Voting.Service/obj
+/Voting.Service/bin/Debug/netstandard2.0
+/Voting.DAL.SQLLite/obj
+/Voting.DAL.SQLLite/bin/Debug/netstandard2.0
+/Voting.Api/Voting.Api.csproj.user
+/Voting.Api/obj
+/Voting.Api/bin/Debug/netcoreapp3.1
+/.vs
