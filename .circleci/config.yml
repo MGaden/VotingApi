@@ -10,3 +10,4 @@ jobs:
     steps:
       - checkout
       - run: dotnet build
+      - run: curl --data build=true -X POST $Docker_Hub_Trigger
