@@ -11,7 +11,7 @@
        - checkout
        - run: dotnet build
        
-   deployment:
+   deploy:
      dockerhub:
        branch: master
        commands:
