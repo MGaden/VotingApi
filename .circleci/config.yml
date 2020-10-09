@@ -11,8 +11,8 @@
        - checkout
        - run: dotnet build
        
-  deployment:
-   dockerhub:
-    branch: master
-    commands:
-     - $Docker_Hub_Trigger
+   deployment:
+     dockerhub:
+       branch: master
+        commands:
+          - $Docker_Hub_Trigger
