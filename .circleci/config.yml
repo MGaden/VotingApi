@@ -12,7 +12,7 @@
        - run: dotnet build
        
    deploy:
-     dockerhub:
+     docker:
        branch: master
        commands:
           - $Docker_Hub_Trigger
