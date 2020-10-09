@@ -1,18 +1,5 @@
- version: 2.1
-
- orbs:
-  win: circleci/windows@2.2.0
-
- jobs:
-   build:
-     executor: win/default     
-    
-     steps:
-       - checkout
-       - run: dotnet build
-       
-   deploy:
-     docker:
+   deployment:
+     dockerhub:
        branch: master
-     steps:
-       -run: $Docker_Hub_Trigger
+       commands:
+          - $Docker_Hub_Trigger
