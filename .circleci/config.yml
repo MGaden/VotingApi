@@ -13,4 +13,4 @@ jobs:
       - run:
           # example curl request from dockerhub documentation
           name: Trigger docker remotely
-          command: curl --data build=true -X POST $Docker_Hub_Trigger
+          command: curl -X POST $Docker_Hub_Trigger
