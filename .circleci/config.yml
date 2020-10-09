@@ -10,4 +10,7 @@ jobs:
     steps:
       - checkout
       - run: dotnet build
-      - run: curl --data build=true -X POST $Docker_Hub_Trigger
+      - run:
+          # example curl request from dockerhub documentation
+          name: Trigger docker remotely
+          command: curl --data build=true -X POST $Docker_Hub_Trigger
