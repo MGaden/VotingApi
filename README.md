@@ -1,7 +1,7 @@
 # VotingApi
 ==============================
 
-Pepole can vote on any predefined items
+Project for learning basics of asp.net core web api 
 
 
 # Build
